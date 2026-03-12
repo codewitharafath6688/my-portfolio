@@ -2,7 +2,7 @@ export const learningData = [
     {
         title: "Complete Web Development Bootcamp",
         source: "Programming Hero",
-        date: "2026",
+        date: "2025",
         status: "Completed",
         skills: ["Full Stack Development", "MERN Stack"]
     },

@@ -32,7 +32,7 @@ const Hero = () => {
 
     return (
         <section id="home" ref={heroRef} className="min-h-screen flex flex-col md:flex-row items-center justify-center px-6 md:px-12 lg:px-24 pt-20 overflow-hidden">
-            <div ref={textRef} className="flex-1 text-center md:text-left z-10">
+            <div ref={textRef} className="flex-1 mb-10 text-center md:text-left z-10">
                 <h2 className="text-blue-600 font-semibold mb-4 tracking-wider uppercase">Welcome to my universe</h2>
                 <h1 className="text-5xl md:text-7xl lg:text-8xl font-black mb-6 leading-tight">
                     Hi, I'm <span className="bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">Arafath</span>
@@ -51,7 +51,7 @@ const Hero = () => {
                         View My Projects <ChevronRight size={18} />
                     </motion.a>
                     <motion.a
-                        href="https://drive.google.com/file/d/1FlhWK382BOOxwXmhUMgAvJP6O6mu-WqP/view?usp=sharing"
+                        href="/public/My_Resume.pdf"
                         target="_blank"
                         rel="noopener noreferrer"
                         whileHover={{ scale: 1.05 }}
