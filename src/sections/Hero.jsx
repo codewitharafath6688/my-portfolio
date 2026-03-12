@@ -51,7 +51,7 @@ const Hero = () => {
                         View My Projects <ChevronRight size={18} />
                     </motion.a>
                     <motion.a
-                        href="/public/My_Resume.pdf"
+                        href="/My_Resume.pdf"
                         target="_blank"
                         rel="noopener noreferrer"
                         whileHover={{ scale: 1.05 }}
