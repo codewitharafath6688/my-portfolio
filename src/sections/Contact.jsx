@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Section from '../components/Section';
 import { motion } from 'framer-motion';
-import { Send, Github, Linkedin, Twitter, Mail, Facebook } from 'lucide-react';
+import { Send, Github, Twitter, Mail, Facebook, LinkedinIcon } from 'lucide-react';
 
 const Contact = () => {
     const [status, setStatus] = useState('');
@@ -32,7 +32,7 @@ const Contact = () => {
                         <div className="flex gap-4 pt-6">
                             {[
                                 { icon: <Github size={20} />, href: "https://github.com/codewitharafath6688" },
-                                { icon: <Facebook size={20} />, href: "https://www.facebook.com/profile.php?id=100041821740864" },
+                                { icon: <LinkedinIcon size={20} />, href: "https://www.linkedin.com/in/arafath-siddique/" },
                                 { icon: <Twitter size={20} />, href: "https://x.com/alpha_se69967" }
                             ].map((social, i) => (
                                 <motion.a
